@@ -1,9 +1,30 @@
-<!DOCTYPE html> <!-- !-->
+<!DOCTYPE html> <!-- Este é um DTD do tipo html !-->
 <html lang="pt-br">
 <head>
-	<title>My Document</title>
+	<meta charset="UTF-8"> <!-- Impossibilitar o navegador de bugar ao ler acentos; ex.: Não! !-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport ajuda a diferentes dispositivos verem o mesmo site !-->
+	<title>Document</title>
 	<style>
 		body {
+			background-color: black;
+			color: white;
+			text-align: center;
+			font-family: arial;
+		}
+		
+		h1 {
+			margin: 50px 0 50px 380px;
+			border: solid 2px;
+			padding: 20px;
+			width: 25%	;
+			font-size: 500%;
+		}
+		
+		img {
+			width: 20%;
+			height: 20%;
+			border-radius: 50px;
 		}
 	</style>
 </head>
@@ -11,7 +32,7 @@
 	
 	<h1>FIAP Teachers</h1> <br>
 	<img src="https://avatars.githubusercontent.com/u/5585727"> <br>
-	<details><summary><p>This is my professor João Carlos Lima!</p></summary>
+	<details><summary><h3>This is my professor João Carlos Lima!</h3></summary>
 	<p>He teaches me Domain Driven Design</p></details>
 </body>
 </html>
